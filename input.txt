@@ -1,0 +1,31 @@
+if (0) then {1}else {5};
+if (1) then {1}else {5};
+if (1+1) then {1}else {5};
+if (1-1) then {1}else {5};
+con=1;
+dcon=0;
+if (con) then {1}else {5};
+if (dcon) then {1}else {5};
+for(1;1;6)then{1}$
+for(1;1;6)then{f=10;}$
+cat f;
+cat 2;
+cat 2+2;
+cat 2-2;
+cat 2*2;
+cat 2^2;
+cat 2/2;
+x=2;
+y=1;
+cat x;
+cat y;
+cat x+y;
+cat x-y;
+cat x*y;
+cat x/y;
+cat x^y;
+x=y;
+cat x;
+cat y;
+for(1;x;6)then{f=10;}$
+exit
